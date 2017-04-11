@@ -119,8 +119,9 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255, 255, 255, .3);
-        background-color: transparent;
+        /*border-color: rgba(255, 255, 255, .3);*/
+        /*background-color: transparent;*/
+        background-color: rgba(0, 0, 0, 0.4);
     }
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255, 255, 255, .7);
@@ -135,8 +136,9 @@ aside {
         color: #fff;
     }
     .navbar-default.affix {
-        border-color: rgba(34, 34, 34, .05);
-        background-color: #fff;
+        /*border-color: rgba(34, 34, 34, .05);*/
+        /*background-color: #fff;*/
+        background-color: rgba(255, 255, 255, 0.8);
     }
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
