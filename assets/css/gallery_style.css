@@ -42,6 +42,9 @@ h1, h2, h3, h4, h5, h6, label, p {
 }
 
 .header-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /*margin-top: 4px;*/
 }
 
@@ -127,7 +130,7 @@ select.in-drop, select.in-drop1 {
     font-size: 0.9em;
     color: #000;
     background: none;
-    width: 81%;
+    /*width: 81%;*/
 }
 
 .world ul li {

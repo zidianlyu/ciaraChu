@@ -7,9 +7,3 @@
 .logo {
     font-weight: bold;
 }
-
-.clearfix {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
