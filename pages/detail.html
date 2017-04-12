@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Home</title>
+    <title>Ciara Gallery</title>
     <link href="../assets/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="../assets/js/jquery.min.js"></script>
@@ -86,7 +86,7 @@
                     <ul class="memenu skyblue">
                         <li class=" grid"><a href="../index.html">Home</a></li>
                         <li class=" grid"><a href="../index.html">News</a></li>
-                        <li class="grid"><a href="#">	Women</a>
+                        <li class="grid"><a href="../index.html">Women</a>
                             <div class="mepanel">
                                 <div class="row">
                                     <div class="col1">
@@ -209,9 +209,8 @@
                 </div>
                 <div class="col-md-7 detail-top-in">
                     <div class="detail-para simpleCart_shelfItem">
-                        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
-                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.It has roots in a piece of classical Latin literature from 45 BC,
-                            making it over 2000 years old.</p>
+                        <h1>Summer Tops</h1>
+                        <p>A fancy-design shirt by Alexander Lawrrence</p>
                         <div class="star-on">
                             <ul>
                                 <li><a href="#"><i class="fa fa-star"> </i></a></li>
@@ -221,8 +220,8 @@
                                 <li><a href="#"><i class="fa fa-star"> </i></a></li>
                             </ul>
                             <div class="review">
-                                <a href="#"> 3 reviews </a>/
-                                <a href="#">  Write a review</a>
+                                <a href="#"> 123 reviews </a>/
+                                <a href="#"> Write a review</a>
                             </div>
                             <div class="clearfix"> </div>
                         </div>
@@ -232,22 +231,24 @@
                         <div class="available">
                             <h6>Available Options :</h6>
                             <ul>
+                                <li>Size:
+																	<select>
+																		<option>Large</option>
+																		<option>Medium</option>
+																		<option>small</option>
+																		<option>Large</option>
+																	</select>
+																</li>
 
-                                <li>Size:<select>
-									<option>Large</option>
-									<option>Medium</option>
-									<option>small</option>
-									<option>Large</option>
-									<option>small</option>
-								</select></li>
                                 <li>Cost:
                                     <select>
-										<option>U.S.Dollar</option>
-										<option>Euro</option>
-									</select></li>
+																			<option>U.S.Dollar</option>
+																			<option>人民币</option>
+																		</select>
+																</li>
                             </ul>
                         </div>
-                        <a href="#" class="cart item_add">More details</a>
+                        <a href="#" class="cart item_add">Add to cart</a>
                     </div>
                 </div>
                 <div class="clearfix"> </div>
@@ -343,7 +344,7 @@
                 </div>
                 <!--initiate accordion-->
                 <script type="text/javascript">
-                    $(document).ready(function() {
+                    $(function() {
                         var menu_ul = $('.menu-drop > li > ul'),
                             menu_a = $('.menu-drop > li > a');
                         menu_ul.hide();
