@@ -1214,6 +1214,7 @@ a.at-in {
 }
 
 a.to-buy {
+    float: right;
     padding: 0.3em 0.7em;
     color: #FFF;
     background: #52D0C4;
