@@ -1,13 +1,11 @@
-@import url('gallery/gallery.css');
-@import url('fonts/font.css');
 @font-face {
-    /*font-family: 'OleoScript-Regular';*/
-    /*src: url(../fonts/OleoScript-Regular.ttf) format('truetype');*/
+    /*font-family: 'OleoScript-Regular';
+    src: url(../fonts/OleoScript-Regular.ttf) format('truetype');*/
 }
 
 @font-face {
-    /*font-family: 'Roboto-Regular';*/
-    /*src: url(../fonts/Roboto-Regular.ttf) format('truetype');*/
+    /*font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');*/
 }
 
 html, body {
@@ -42,7 +40,7 @@ h1, h2, h3, h4, h5, h6, label, p {
 }
 
 .header-left {
-    /*margin-top: 4px;*/
+    margin-top: 4px;
 }
 
 .header-left ul li {
@@ -132,7 +130,7 @@ select.in-drop, select.in-drop1 {
 
 .world ul li {
     display: inline-block;
-    margin: 0 2% 0 0;
+    margin: 0 0 0 0;
 }
 
 select.in-drop1 {
@@ -141,12 +139,6 @@ select.in-drop1 {
 
 .logo {
     text-align: center;
-    font-size: 25px;
-    font-family: 'Nunito', sans-serif;
-}
-
-.logo a:hover{
-  text-decoration: none;
 }
 
 p.log {
@@ -178,7 +170,7 @@ i.glyphicon.glyphicon-search {
 }
 
 .world {
-    /*margin-top: 2%;*/
+    margin-top: 2%;
 }
 
 i.glyphicon.glyphicon-phone {
