@@ -4,6 +4,12 @@
     align-items: center;
 }
 
-.logo{
-  font-weight: bold;
+.logo {
+    font-weight: bold;
+}
+
+.clearfix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
