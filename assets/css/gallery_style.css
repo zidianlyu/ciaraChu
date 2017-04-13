@@ -243,6 +243,14 @@ a.item_add {
 .box_1 p a {
     color: #B5B3B3;
     font-size: 0.77em;
+    opacity: 1;
+    transition: opacity 0.8s;
+}
+
+.box_1 p a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.8s;
 }
 
 .total {
