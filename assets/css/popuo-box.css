@@ -312,7 +312,7 @@ button::-moz-focus-inner {
 .login input[type="submit"] {
     width: 26px;
     height: 26px;
-    background: url(../images/search.png) no-repeat;
+    /*background: url(../images/search.png) no-repeat;*/
     padding: 0px 1px;
     border: none;
     cursor: pointer;

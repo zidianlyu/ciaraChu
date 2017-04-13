@@ -232,6 +232,8 @@ a.item_add {
 .box_1 h3 {
     color: #000;
     font-size: 1em;
+    display: flex;
+    justify-content: space-between;
 }
 
 .box_1 h3 img {
