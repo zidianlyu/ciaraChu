@@ -39,6 +39,38 @@ form {
     padding: 1em;
 }
 
+input {
+    border-radius: 3px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #eaeaec;
+    font-size: 14px;
+    font-style: italic;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #eaeaec;
+    font-size: 14px;
+    font-style: italic;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #eaeaec;
+    font-size: 14px;
+    font-style: italic;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #eaeaec;
+    font-size: 14px;
+    font-style: italic;
+}
+
 
 /*----*/
 
@@ -388,7 +420,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .matter-banner {
-    width: 34.6% !important;
+    width: 35.25% !important;
 }
 
 
@@ -614,7 +646,7 @@ p.footer-class a:hover {
 .contact-bottom input[type="text"] {
     width: 100%;
     padding: 0.7em;
-    border: 1px solid #bbb;
+    border: 1px solid #ccc;
     -webkit-appearance: none;
     outline: none;
     color: #fff;
@@ -625,7 +657,7 @@ p.footer-class a:hover {
 .contact-bottom-top textarea {
     width: 100%;
     padding: 1em;
-    border: 1px solid #bbb;
+    border: 1px solid #ccc;
     -webkit-appearance: none;
     outline: none;
     color: #bbb;
@@ -758,9 +790,10 @@ p.footer-class a:hover {
 }
 
 .login-right span {
-    color: #b2b2b2;
+    color: #000;
+    font-family: 'Lato', sans-serif;
     font-size: 0.9em;
-    padding-bottom: 0.4em;
+    /*padding-bottom: 0.4em;*/
     display: block;
 }
 
@@ -769,12 +802,12 @@ p.footer-class a:hover {
 }
 
 .login-right input[type="text"] {
-    border: 1px solid #bbb;
+    border: 1px solid #ccc;
     outline-color: #40d1f0;
     width: 96%;
     font-size: 0.9em;
     padding: 10px;
-    margin: 0.5em 0;
+    margin: 0 0 0.7em 0;
 }
 
 .login-right input[type="submit"] {
@@ -794,8 +827,16 @@ p.footer-class a:hover {
 }
 
 a.forgot {
-    font-size: 0.8125em;
-    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9em;
+    color: #336dd6;
+    transition: all 0.8s;
+}
+
+a.forgot:hover {
+    color: #eb3812;
+    text-decoration: underline;
+    transition: all 0.8s;
 }
 
 .account {
@@ -821,12 +862,12 @@ a.forgot {
 }
 
 .register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
-    border: 1px solid #EEE;
+    border: 1px solid #ccc;
     outline-color: #40d1f0;
     width: 100%;
     font-size: 1em;
     padding: 0.5em;
-    margin: 0.5em 0;
+    margin: 0 0 0.7em 0;
 }
 
 .checkbox {
@@ -885,11 +926,11 @@ a.forgot {
 .checkbox input+i:after {
     position: absolute;
     opacity: 0;
-    transition: opacity 0.1s;
-    -o-transition: opacity 0.1s;
-    -ms-transition: opacity 0.1s;
-    -moz-transition: opacity 0.1s;
-    -webkit-transition: opacity 0.1s;
+    transition: opacity 0.6s;
+    -o-transition: opacity 0.6s;
+    -ms-transition: opacity 0.6s;
+    -moz-transition: opacity 0.6s;
+    -webkit-transition: opacity 0.6s;
 }
 
 .checkbox input {
@@ -905,7 +946,9 @@ a.forgot {
     color: #00BFF0;
 }
 
-.register-but {}
+.register-but {
+    text-align: center;
+}
 
 .register-but form input[type="submit"] {
     border-radius: 5px;
@@ -1159,13 +1202,15 @@ a.cart:hover {
 }
 
 .star-on a {
-    text-decoration: none;
+    font: 300 13px 'Open Sans', sans-serif;
     font-size: 1em;
-    color: #40d1f0;
+    color: #000;
+    transition: all 0.8s;
 }
 
 .star-on a:hover {
-    color: #000;
+    color: #f05f40;
+    transition: all 0.8s;
 }
 
 .single-bottom h4 {
@@ -1366,7 +1411,7 @@ ul.nav.nav-pills {
         width: 33%;
     }
     .banner-mat img {
-        height: 256px;
+        /*height: 256px;*/
         width: 100%;
     }
     .footer-bottom {
