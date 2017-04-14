@@ -148,7 +148,8 @@ a.play-icon.popup-with-zoom-anim img:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    background: #40d1f0 !important;
+    /*color: #f04044;*/
+    background: #eb6312 !important;
 }
 
 .mfp-container:before {
@@ -282,6 +283,10 @@ button::-moz-focus-inner {
 
 .mfp-close-btn-in .mfp-close {
     color: #fff;
+    background: none;
+    transition: all 0.8s;
+    border-radius: 50%;
+    border: 2px solid;
 }
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
@@ -312,7 +317,7 @@ button::-moz-focus-inner {
 .login input[type="submit"] {
     width: 26px;
     height: 26px;
-    /*background: url(../images/search.png) no-repeat;*/
+    background: url(../img/gallery/search.png) no-repeat;
     padding: 0px 1px;
     border: none;
     cursor: pointer;

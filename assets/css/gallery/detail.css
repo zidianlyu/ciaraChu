@@ -1,4 +1,15 @@
 .detail h1 {
+    color: #f04044;
     text-align: center;
     margin: 1% 0 2% 0;
+}
+
+.simpleCart_shelfItem {
+    background-color: #fff;
+    padding: 1em;
+}
+
+.product-bottom {
+    background-color: #fff;
+    padding: 1em;
 }
