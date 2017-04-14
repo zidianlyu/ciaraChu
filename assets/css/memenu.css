@@ -202,7 +202,7 @@ ul.memenu.skyblue {
 }
 
 .skyblue li>a, .skyblue>li.showhide span {
-    background-color: rgba(0, 0, 0, 0.03);
+    background-color: #fff;
     margin: 0 1px;
     color: #40d1f0;
 }

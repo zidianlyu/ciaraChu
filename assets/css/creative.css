@@ -31,7 +31,8 @@ a {
 }
 
 a:hover, a:focus {
-    color: #eb3812;
+    text-decoration: none !important;
+    /*color: #eb3812;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -311,18 +312,17 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
-    color: #222;
+    color: #f05f40;
     background-color: #fff;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    transition: all .8s;
 }
 
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {
-    border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
+    color: #fff;
+    background-color: #f05f40;
+    transition: 0.8s all;
 }
 
 .btn-default:active, .btn-default.active, .open>.dropdown-toggle.btn-default {

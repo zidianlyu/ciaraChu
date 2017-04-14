@@ -12,7 +12,7 @@
 }
 
 html, body {
-    background: #fff;
+    background: #f8f8f8;
     font-size: 100%;
     /*font-family: 'Varela Round', sans-serif;*/
 }
@@ -37,8 +37,12 @@ h1, h2, h3, h4, h5, h6, label, p {
 
 /*----*/
 
+.container {
+    padding: 1em 15px !important;
+}
+
 .header-top {
-    border-bottom: 1px solid #eee;
+    background: #fff;
     padding: 15px 0;
 }
 
@@ -65,13 +69,12 @@ h1, h2, h3, h4, h5, h6, label, p {
 }
 
 .head-top {
-    padding: 1em 0 0;
+    /*padding: 1em 0 0;*/
     display: flex;
     align-items: center;
 }
 
 .number {
-    /*margin-top: 1%;*/
     display: flex;
     align-items: center;
 }
@@ -90,6 +93,12 @@ h1, h2, h3, h4, h5, h6, label, p {
 .number span label {
     font-size: 0.9em;
     font-family: 'Varela Round', sans-serif;
+}
+
+.number span label:hover {
+    color: #961f27;
+    transition: color 0.8s;
+    cursor: pointer;
 }
 
 
@@ -193,8 +202,8 @@ p.log a:hover {
 }
 
 .search {
-    text-align: right;
-    /*margin-top: 1%;*/
+    text-align: center;
+    padding: 0;
 }
 
 i.glyphicon.glyphicon-search {
@@ -251,10 +260,16 @@ a.item_add {
 }
 
 .box_1 h3 {
-    color: #000;
+    color: #f04044;
     font-size: 1em;
+    opacity: 1;
+    transition: opacity 0.8s;
     display: flex;
     justify-content: space-between;
+}
+
+.box_1 h3:hover {
+    opacity: 0.5;
 }
 
 .box_1 h3 img {
@@ -357,6 +372,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .banner {
     display: flex;
     justify-content: center;
+    border-top: 1px solid #bcbcbc;
     border-bottom: 1px solid #bcbcbc;
     padding: 1em 0;
 }
@@ -374,7 +390,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 /*--content--*/
 
 .content-top h1 {
-    color: #000;
+    color: #f04044;
     font-size: 3em;
     /*font-family: 'OleoScript-Regular';*/
     text-align: center;
@@ -386,9 +402,8 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .col-md1 h3 {
-    font-size: 1.2em;
     line-height: 1.1em;
-    /*font-family: 'OleoScript-Regular';*/
+    font: 300 14px 'Open Sans', sans-serif;
     text-align: center;
     margin: 0 0 0.7em;
     color: #000;
@@ -401,8 +416,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 .price h5 {
     float: left;
-    color: #000;
-    font-size: 1.5em;
+    color: #f05f40;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1.2em;
     margin-top: 3px;
 }
 
@@ -426,23 +442,25 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .col-md1 {
-    border: 1px solid #CACACA;
+    background-color: #fff;
+    /*border: 1px solid #CACACA;*/
     padding: 1em;
     border-bottom: 5px solid #40d1f0;
+    transition: 0.8s all;
 }
 
 .col-md1:hover {
-    border: 1px solid #000;
-    border-bottom: 5px solid #000;
-    transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -o-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -ms-transition: 0.5s all;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.8s all;
+    -webkit-transition: 0.8s all;
+    -o-transition: 0.8s all;
+    -moz-transition: 0.8s all;
+    -ms-transition: 0.8s all;
 }
 
 .col-md1:hover .price a {
-    background-color: #000;
+    background-color: #35a9c3;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -o-transition: 0.5s all;
@@ -492,6 +510,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .footer {
+    background: #313030;
     border-top: 1px solid #BDBDBD;
 }
 
@@ -504,10 +523,11 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .footer-bottom-cate h6 {
-    font-size: 1.1em;
-    color: #000;
+    /*font-size: 1.1em;*/
+    text-transform: uppercase;
+    color: #c2c1c1;
     margin: 0 0 0.5em;
-    /*font-family: 'OleoScript-Regular';*/
+    font: 23px 'PT Sans Narrow', sans-serif
 }
 
 .footer-bottom-cate ul {
@@ -542,7 +562,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 p.footer-class {
-    font-size: 1em;
+    font-size: 0.6em;
     color: #B2B2B2;
     margin: 2em 0 0;
     text-align: center;
@@ -559,7 +579,6 @@ p.footer-class a:hover {
 
 .footer-bottom {
     padding: 4em 0;
-    border-top: 1px solid #BDBDBD;
 }
 
 
@@ -1245,8 +1264,7 @@ a.at-in {
 
 .check-out h1 {
     font-size: 3em;
-    color: #000;
-    /*font-family: 'OleoScript-Regular';*/
+    color: #f04044;
     margin: 0 0px 1em;
     text-align: center;
 }
@@ -1580,7 +1598,7 @@ ul.nav.nav-pills {
         padding: 0.5em;
     }
     .price h5 {
-        font-size: 1.1em;
+        /*font-size: 1.1em;*/
     }
     .price a {
         padding: 0.3em 0.5em;
@@ -1678,7 +1696,7 @@ ul.nav.nav-pills {
         padding: 2em 0 1em;
     }
     .price h5 {
-        font-size: 1em;
+        /*font-size: 1em;*/
         margin-top: 6px;
     }
     .footer-top {
@@ -1928,7 +1946,7 @@ ul.nav.nav-pills {
         padding: 0.3em;
     }
     .price h5 {
-        font-size: 1em;
+        /*font-size: 1em;*/
         margin: 0.4em 0;
         float: none;
     }
