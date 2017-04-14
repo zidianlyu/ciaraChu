@@ -20,7 +20,6 @@ ul.memenu.skyblue {
 }
 
 .memenu>li>a {
-    /*font-family: 'Roboto-Regular';*/
     float: left;
     padding: 5px 30px 5px 30px;
     font-size: 1.1em;
@@ -160,6 +159,10 @@ ul.memenu.skyblue {
     width: 100%
 }
 
+.grid {
+    border-right: 1px solid #eee;
+}
+
 .memenu>li.showhide {
     display: none;
     width: 100%;
@@ -202,13 +205,13 @@ ul.memenu.skyblue {
 }
 
 .skyblue li>a, .skyblue>li.showhide span {
-    background-color: #fff;
-    margin: 0 1px;
     color: #40d1f0;
 }
 
 .skyblue>li:hover>a, .skyblue>li.active>a, .skyblue .dropdown li:hover>a {
+    background-color: none;
     color: #f05f40;
+    transition: 0.8s all;
 }
 
 .skyblue .mepanel img:hover, .skyblue form.contact input[type="text"]:focus, .skyblue form.contact textarea:focus {

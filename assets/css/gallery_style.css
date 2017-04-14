@@ -813,10 +813,11 @@ a.forgot {
 }
 
 .register-top-grid span, .register-bottom-grid span {
-    color: #b2b2b2;
+    color: #000;
     font-size: 0.9em;
     padding-bottom: 0.2em;
     display: block;
+    font-family: 'Lato', sans-serif;
 }
 
 .register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
@@ -872,7 +873,7 @@ a.forgot {
 
 .checkbox input+i:after {
     content: '';
-    /*background: url("../images/tick1.png") no-repeat 1px 2px;*/
+    background: url("../img/gallery/tick1.png") no-repeat 1px 2px;
     top: -1px;
     left: -1px;
     width: 15px;
