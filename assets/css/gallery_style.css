@@ -34,6 +34,10 @@ h1, h2, h3, h4, h5, h6, label, p {
     margin: 0;
 }
 
+form {
+  background-color: white;
+  padding: 1em;
+}
 
 /*----*/
 
@@ -707,17 +711,15 @@ p.footer-class a:hover {
 /*--login--*/
 
 .account h1 {
-    color: #000;
+    color: #f04044;
     font-size: 3em;
     margin: 0 0 1em;
-    /*font-family: 'OleoScript-Regular';*/
     text-align: center;
 }
 
 .login-left h4 {
     color: #000;
     font-size: 1.3em;
-    /*font-family: 'OleoScript-Regular';*/
 }
 
 .login-left p {
@@ -730,6 +732,7 @@ p.footer-class a:hover {
 }
 
 .acount-btn {
+    border-radius: 5px;
     background: #40d1f0;
     color: #FFF;
     font-size: 0.9em;
@@ -743,13 +746,14 @@ p.footer-class a:hover {
 }
 
 .acount-btn:hover, .login-right input[type="submit"]:hover {
+    transition: 0.8s all;
     background: #000;
     text-decoration: none;
     color: #fff;
 }
 
 .login-right form {
-    padding: 1em 0;
+    /*padding: 1em;*/
 }
 
 .login-right span {
@@ -773,14 +777,15 @@ p.footer-class a:hover {
 }
 
 .login-right input[type="submit"] {
+    border-radius: 5px;
     background: #40d1f0;
     color: #FFF;
     font-size: 0.9em;
     padding: 0.4em 1em;
     transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
+    -webkit-transition: 0.8s all;
+    -moz-transition: 0.8s all;
+    -o-transition: 0.8s all;
     display: inline-block;
     text-transform: uppercase;
     border: none;
@@ -800,10 +805,9 @@ a.forgot {
 /*--register--*/
 
 .register h1 {
-    color: #000;
+    color: #f04044;
     font-size: 3em;
     margin: 0 0 1em;
-    /*font-family: 'OleoScript-Regular';*/
     text-align: center;
 }
 
@@ -900,18 +904,19 @@ a.forgot {
 }
 
 .register-but {
-    margin-top: 1em;
+
 }
 
 .register-but form input[type="submit"] {
+    border-radius: 5px;
     background: #40d1f0;
     color: #FFF;
     font-size: 1em;
     padding: 0.4em 1em;
     transition: 0.5s all;
-    -webkit-transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    -o-transition: 0.5s all;
+    -webkit-transition: 0.8s all;
+    -moz-transition: 0.8s all;
+    -o-transition: 0.8s all;
     display: inline-block;
     border: none;
     outline: none;
@@ -919,6 +924,7 @@ a.forgot {
 
 .register-but input[type="submit"]:hover {
     background: #000;
+    transition: 0.8s all;
 }
 
 .mation {

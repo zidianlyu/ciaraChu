@@ -340,18 +340,18 @@ header .header-content .header-content-inner p {
 }
 
 .btn-primary {
-    border-color: #f05f40;
-    color: #fff;
-    background-color: #f05f40;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    color: #f05f40;
+    background-color: #fff;
+    -webkit-transition: all .8s;
+    -moz-transition: all .8s;
+    transition: all .8s;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
     border-color: #f05f40;
     color: #fff;
     background-color: #f05f40;
+    transition: all .8s;
 }
 
 .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
