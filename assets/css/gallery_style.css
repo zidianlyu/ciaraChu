@@ -14,7 +14,7 @@
 html, body {
     background: #fff;
     font-size: 100%;
-    /*font-family: 'Roboto-Regular';*/
+    /*font-family: 'Varela Round', sans-serif;*/
 }
 
 body a {
@@ -66,22 +66,37 @@ h1, h2, h3, h4, h5, h6, label, p {
 
 .head-top {
     padding: 1em 0 0;
+    display: flex;
+    align-items: center;
 }
 
 .number {
-    margin-top: 1%;
+    /*margin-top: 1%;*/
+    display: flex;
+    align-items: center;
 }
 
 .number span {
-    color: #000;
-    font-size: 1em;
+    color: #f05f40;
+    display: flex;
+    align-items: center;
+}
+
+.number span i {
+    font-size: 1.4em;
+    margin: 0 5px 0 0;
+}
+
+.number span label {
+    font-size: 0.9em;
+    font-family: 'Varela Round', sans-serif;
 }
 
 
 /* start menu */
 
 .h_menu4 {
-    margin: 7px 0 0px;
+    /*margin: 7px 0 0px;*/
 }
 
 .h_nav h4 {
@@ -115,7 +130,7 @@ h1, h2, h3, h4, h5, h6, label, p {
 }
 
 .h_nav ul li a:hover {
-    color: #52d0c4;
+    color: #40d1f0;
     text-decoration: underline;
 }
 
@@ -125,18 +140,24 @@ h1, h2, h3, h4, h5, h6, label, p {
 
 /*--header--*/
 
+select {
+    cursor: pointer;
+}
+
 select.in-drop, select.in-drop1 {
+    font-family: 'Varela Round', sans-serif;
     border: none;
     outline: 0;
     font-size: 0.9em;
     color: #000;
     background: none;
-    /*width: 81%;*/
 }
 
 .world ul li {
     display: inline-block;
     margin: 0 2% 0 0;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
 }
 
 select.in-drop1 {
@@ -161,7 +182,7 @@ p.log {
 }
 
 p.log a {
-    color: #52d0c4;
+    color: #40d1f0;
     text-decoration: none;
     margin: 0 5%;
     display: inline-block;
@@ -173,7 +194,7 @@ p.log a:hover {
 
 .search {
     text-align: right;
-    margin-top: 1%;
+    /*margin-top: 1%;*/
 }
 
 i.glyphicon.glyphicon-search {
@@ -334,12 +355,19 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .banner {
+    display: flex;
+    justify-content: center;
     border-bottom: 1px solid #bcbcbc;
     padding: 1em 0;
 }
 
 .banner-mat {
     padding: 0;
+    width: 32%;
+}
+
+.matter-banner {
+    width: 34.6% !important;
 }
 
 
@@ -383,7 +411,7 @@ ul.callbacks_tabs.callbacks1_tabs {
     font-size: 0.9em;
     display: block;
     float: right;
-    background-color: #52D0C4;
+    background-color: #40d1f0;
     padding: 0.3em 0.6em;
     border-radius: 3px;
     text-decoration: none;
@@ -400,7 +428,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 .col-md1 {
     border: 1px solid #CACACA;
     padding: 1em;
-    border-bottom: 5px solid #52D0C4;
+    border-bottom: 5px solid #40d1f0;
 }
 
 .col-md1:hover {
@@ -433,7 +461,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 
 .top-footer1 h2 {
     font-size: 2em;
-    color: #52d0c4;
+    color: #40d1f0;
     /*font-family: 'OleoScript-Regular';*/
     margin: 0 0 0.5em;
 }
@@ -460,7 +488,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .top-footer1 input[type="submit"]:hover {
-    background-color: #52d0c4;
+    background-color: #40d1f0;
 }
 
 .footer {
@@ -499,7 +527,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .footer-bottom-cate ul li a:hover {
-    color: #52D0C4;
+    color: #40d1f0;
     padding-left: 5px;
 }
 
@@ -509,7 +537,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 .cate-bottom ul li.phone {
-    color: #52D0C4;
+    color: #40d1f0;
     padding: 1em 0 0em;
 }
 
@@ -522,7 +550,7 @@ p.footer-class {
 
 p.footer-class a {
     text-decoration: none;
-    color: #52D0C4;
+    color: #40d1f0;
 }
 
 p.footer-class a:hover {
@@ -566,7 +594,7 @@ p.footer-class a:hover {
     -webkit-appearance: none;
     outline: none;
     color: #fff;
-    outline-color: #52D0C4;
+    outline-color: #40d1f0;
     background: none;
 }
 
@@ -579,7 +607,7 @@ p.footer-class a:hover {
     color: #bbb;
     min-height: 220px;
     resize: none;
-    outline-color: #52D0C4;
+    outline-color: #40d1f0;
     background: none;
 }
 
@@ -588,7 +616,7 @@ p.footer-class a:hover {
 }
 
 .contact-form input[type="submit"] {
-    background: #52D0C4;
+    background: #40d1f0;
     color: #fff;
     border: none;
     outline: none;
@@ -608,7 +636,7 @@ p.footer-class a:hover {
 }
 
 .address-grid i {
-    color: #52D0C4;
+    color: #40d1f0;
     font-size: 4em;
     float: left;
     margin: 0 9% 0 0;
@@ -632,7 +660,7 @@ p.footer-class a:hover {
 }
 
 .address1 p a:hover {
-    color: #52D0C4;
+    color: #40d1f0;
 }
 
 .address-more h2 {
@@ -683,7 +711,7 @@ p.footer-class a:hover {
 }
 
 .acount-btn {
-    background: #52d0c4;
+    background: #40d1f0;
     color: #FFF;
     font-size: 0.9em;
     padding: 0.4em 1em;
@@ -718,7 +746,7 @@ p.footer-class a:hover {
 
 .login-right input[type="text"] {
     border: 1px solid #bbb;
-    outline-color: #52d0c4;
+    outline-color: #40d1f0;
     width: 96%;
     font-size: 0.9em;
     padding: 10px;
@@ -726,7 +754,7 @@ p.footer-class a:hover {
 }
 
 .login-right input[type="submit"] {
-    background: #52d0c4;
+    background: #40d1f0;
     color: #FFF;
     font-size: 0.9em;
     padding: 0.4em 1em;
@@ -769,7 +797,7 @@ a.forgot {
 
 .register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
     border: 1px solid #EEE;
-    outline-color: #52D0C4;
+    outline-color: #40d1f0;
     width: 100%;
     font-size: 1em;
     padding: 0.5em;
@@ -857,7 +885,7 @@ a.forgot {
 }
 
 .register-but form input[type="submit"] {
-    background: #52D0C4;
+    background: #40d1f0;
     color: #FFF;
     font-size: 1em;
     padding: 0.4em 1em;
@@ -901,7 +929,7 @@ a.forgot {
 /*--menu-drop--*/
 
 h3.cate {
-    color: #52D0C4;
+    color: #40d1f0;
     font-size: 1.5em;
     /*font-family: 'OleoScript-Regular';*/
 }
@@ -929,7 +957,7 @@ ul.kid-menu {
 }
 
 .menu-drop>li>a:hover {
-    color: #52D0C4;
+    color: #40d1f0;
 }
 
 .menu-drop ul li a {
@@ -938,7 +966,7 @@ ul.kid-menu {
     position: relative;
     font-size: 0.9em;
     margin: 0.3em 0;
-    color: #52D0C4;
+    color: #40d1f0;
     text-decoration: none;
     text-indent: 1.2em;
 }
@@ -978,14 +1006,14 @@ h6.best2 a {
 }
 
 h6.best2 a:hover {
-    color: #52D0C4;
+    color: #40d1f0;
 }
 
 span.price-in1 {
     font-size: 1.3em;
     padding: 0.3em 0 0;
     display: block;
-    color: #52D0C4;
+    color: #40d1f0;
 }
 
 .product-go {
@@ -1022,8 +1050,8 @@ span.price-in1 {
 
 .tags li a:hover {
     color: #fff;
-    background: #52D0C4;
-    border: 1px solid #52D0C4;
+    background: #40d1f0;
+    border: 1px solid #40d1f0;
 }
 
 .tags ul li:nth-child(4), .tags ul li:nth-child(8), .tags ul li:nth-child(12) {
@@ -1046,7 +1074,7 @@ span.price-in1 {
 
 .single-para h1 {
     font-size: 1.5em;
-    color: #52D0C4;
+    color: #40d1f0;
     line-height: 1.5em;
     /*font-family: 'OleoScript-Regular';*/
 }
@@ -1066,7 +1094,7 @@ label.add-to {
 a.cart {
     padding: 0.3em 0.7em;
     color: #FFF;
-    background: #52D0C4;
+    background: #40d1f0;
     margin: 1.5em 0 0;
     font-size: 1em;
     display: inline-block;
@@ -1106,7 +1134,7 @@ a.cart:hover {
 .star-on a {
     text-decoration: none;
     font-size: 1em;
-    color: #52D0C4;
+    color: #40d1f0;
 }
 
 .star-on a:hover {
@@ -1125,7 +1153,7 @@ a.cart:hover {
 }
 
 .available h6 {
-    color: #52D0C4;
+    color: #40d1f0;
     font-size: 1.4em;
     padding: 0 0 1em;
 }
@@ -1159,7 +1187,7 @@ table {
 }
 
 th {
-    color: #52D0C4;
+    color: #40d1f0;
     font-size: 1.2em;
     /*font-family: 'OleoScript-Regular';*/
     font-weight: 400;
@@ -1185,7 +1213,7 @@ a.at-in {
 }
 
 .sed h5 {
-    color: #52D0C4;
+    color: #40d1f0;
     font-size: 1.1em;
     /*font-family: 'OleoScript-Regular';*/
 }
@@ -1227,7 +1255,7 @@ a.to-buy {
     float: right;
     padding: 0.3em 0.7em;
     color: #FFF;
-    background: #52D0C4;
+    background: #40d1f0;
     margin: 0.5em 0 0;
     font-size: 1em;
     display: inline-block;
@@ -1368,7 +1396,7 @@ ul.nav.nav-pills {
     .number span {
         color: #000;
         font-size: 0.82em;
-        margin-top: 1.5em;
+        /*margin-top: 1.5em;*/
         display: block;
     }
     .search {
@@ -1411,7 +1439,7 @@ ul.nav.nav-pills {
         width: 100%;
     }
     .banner-mat {
-        width: 25%;
+        /*width: 25%;*/
         float: left;
     }
     .matter-banner {

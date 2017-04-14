@@ -14,7 +14,9 @@
 }
 
 ul.memenu.skyblue {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .memenu>li>a {
@@ -164,7 +166,7 @@ ul.memenu.skyblue {
     height: 44px;
     cursor: pointer;
     color: #555;
-    background: #52D0C4;
+    background: #40d1f0;
 }
 
 .memenu>li.showhide span.title {
@@ -200,11 +202,13 @@ ul.memenu.skyblue {
 }
 
 .skyblue li>a, .skyblue>li.showhide span {
-    color: #52d0c4
+    background-color: rgba(0, 0, 0, 0.03);
+    margin: 0 1px;
+    color: #40d1f0;
 }
 
 .skyblue>li:hover>a, .skyblue>li.active>a, .skyblue .dropdown li:hover>a {
-    color: #000
+    color: #f05f40;
 }
 
 .skyblue .mepanel img:hover, .skyblue form.contact input[type="text"]:focus, .skyblue form.contact textarea:focus {
